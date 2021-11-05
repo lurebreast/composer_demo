@@ -1,0 +1,19 @@
+{
+    "name": "composer/demo",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./lurebreast/hello",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "require-dev": {
+        "php": "^7.3"
+    },
+    "require": {
+        "lurebreast/hello": "@dev"
+    }
+}

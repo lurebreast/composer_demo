@@ -1,0 +1,35 @@
+[
+    {
+        "name": "lurebreast/hello",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "path",
+            "url": "./lurebreast/hello",
+            "reference": "094fe8361fc9c3c2e3b01be0f06dd0c919c0e0fe"
+        },
+        "require": {
+            "php": ">=7.2"
+        },
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "lurebreast\\hello\\": "src"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "lurebreast",
+                "email": "lurebreast@126.com"
+            }
+        ],
+        "description": "composer demo test",
+        "transport-options": {
+            "symlink": true
+        }
+    }
+]
